@@ -6,11 +6,11 @@ from config import *
 
 app = Flask(__name__, static_folder="./static")
 
-if os.getenv('DEPLOYMENT') == 'production':
-	app.config.from_object('app.config.ProductionConfig')
-else:
+if os.getenv('DEPLOYMENT') == 'development':
 	app.config.from_object('app.config.DevelopmentConfig')
-
+else:
+	app.config.from_object('app.config.ProductionConfig')
+	
 @app.route("/")
 def hello():
   return render_template('index.html')
