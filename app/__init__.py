@@ -19,7 +19,6 @@ def index():
 
 @app.route("/status-data")
 def status_data():
-    utils.error_log("hello world")
     qstat_data = utils.query_system_data(app.config['QSTAT_COMMAND'])
     vmem_data = utils.query_system_data(app.config['VMEM_COMMAND'])
     qhosts_data = utils.query_system_data(app.config['QHOSTS_COMMAND'])

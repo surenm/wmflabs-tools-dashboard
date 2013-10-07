@@ -9,8 +9,8 @@ class ProductionConfig(Config):
 	BASE_URL = "http://tools.wmflabs.org/tools-dashboard/"
 	QSTAT_COMMAND = "/usr/bin/qstat -u '*' -r -xml"
 	QHOSTS_COMMAND = "/usr/bin/qhost -F h_vmem -xml"
-	VMEM_COMMAND = "/usr/bin/qstat -F h_vmem -xml`"
-	JOB_STAT_COMMAND = "/usr/bin/qstat -xml -j %s |sed -e 's/JATASK:[^>]*/jatask/g'" 
+	VMEM_COMMAND = "/usr/bin/qstat -F h_vmem -xml"
+	JOB_STAT_COMMAND = "/usr/bin/qstat -xml -j {0} | sed -e 's/JATASK:[^>]*/jatask/g'" 
 
 class DevelopmentConfig(Config):
 	QSTAT_COMMAND = "cat ./sample/qstat_output.xml"
