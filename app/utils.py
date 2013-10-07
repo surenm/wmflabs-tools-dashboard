@@ -8,9 +8,10 @@ environ = os.environ
 environ['PATH'] = '/bin:/usr/bin:/usr/local/bin'
 
 def error_log(str):
-    sys.stderr.write(obj)
-    sys.stderr.write("\n")
-    sys.stderr.flush()
+    error_file = open('./logs/error.log', 'a')
+    error_file.write(str)
+    error_file.write("\n")
+    error_file.close()
 
 def query_system_data(command):
     raw_system_str = subprocess.check_output(command, shell = True, stderr=subprocess.STDOUT, env=environ)
@@ -35,6 +36,7 @@ def get_jobs_data(config, qstat_data):
 
     for job in jobs_list:
         job_id = job['JB_job_number']
+        error_log("Inspecting Job: " + job_id)
         detailed_job_stats_command = config['JOB_STAT_COMMAND'].format(job_id)
         raw_detailed_job_stats_data = query_system_data(detailed_job_stats_command)
         detailed_stats_data = raw_detailed_job_stats_data['detailed_job_info']['djob_info']['element']

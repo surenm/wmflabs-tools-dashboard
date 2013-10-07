@@ -10,12 +10,16 @@ if os.getenv('DEPLOYMENT') == 'development':
 else:
     app.config.from_object('app.config.ProductionConfig')
 
+environ = os.environ
+environ['PATH'] = '/bin:/usr/bin:/usr/local/bin'
+
 @app.route("/")
 def index():
     return render_template('index.html')
 
 @app.route("/status-data")
 def status_data():
+    utils.error_log("hello world")
     qstat_data = utils.query_system_data(app.config['QSTAT_COMMAND'])
     vmem_data = utils.query_system_data(app.config['VMEM_COMMAND'])
     qhosts_data = utils.query_system_data(app.config['QHOSTS_COMMAND'])
