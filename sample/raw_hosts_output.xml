@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<qhost xmlns:xsd="http://gridengine.sunsource.net/source/browse/*checkout*/gridengine/source/dist/util/resources/schemas/qhost/qhost.xsd?revision=1.2">
+ <host name='global'>
+   <hostvalue name='arch_string'>-</hostvalue>
+   <hostvalue name='num_proc'>-</hostvalue>
+   <hostvalue name='load_avg'>-</hostvalue>
+   <hostvalue name='mem_total'>-</hostvalue>
+   <hostvalue name='mem_used'>-</hostvalue>
+   <hostvalue name='swap_total'>-</hostvalue>
+   <hostvalue name='swap_used'>-</hostvalue>
+ </host>
+ <host name='tools-exec-01.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>6.98</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>1.0G</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>27.332G</resourcevalue>
+ </host>
+ <host name='tools-exec-02.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>0.66</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>1.1G</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>14.770G</resourcevalue>
+ </host>
+ <host name='tools-exec-03.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>0.51</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>803.8M</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>22.917G</resourcevalue>
+ </host>
+ <host name='tools-exec-04.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>0.40</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>1.0G</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>26.111G</resourcevalue>
+ </host>
+ <host name='tools-exec-05.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>2.99</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>2.0G</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>15.116G</resourcevalue>
+ </host>
+ <host name='tools-exec-06.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>1.14</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>484.2M</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>24.782G</resourcevalue>
+ </host>
+ <host name='tools-exec-07.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>5.53</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>619.8M</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>25.371G</resourcevalue>
+ </host>
+ <host name='tools-exec-08.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>4</hostvalue>
+   <hostvalue name='load_avg'>2.22</hostvalue>
+   <hostvalue name='mem_total'>7.8G</hostvalue>
+   <hostvalue name='mem_used'>1.0G</hostvalue>
+   <hostvalue name='swap_total'>22.3G</hostvalue>
+   <hostvalue name='swap_used'>0.0</hostvalue>
+   <resourcevalue name='h_vmem' dominance='hc'>21.959G</resourcevalue>
+ </host>
+ <host name='tools-exec-cyberbot.pmtpa.wmflabs'>
+   <hostvalue name='arch_string'>lx26-amd64</hostvalue>
+   <hostvalue name='num_proc'>1</hostvalue>
+   <hostvalue name='load_avg'>0.67</hostvalue>
+   <hostvalue name='mem_total'>2.0G</hostvalue>
+   <hostvalue name='mem_used'>1.4G</hostvalue>
+   <hostvalue name='swap_total'>976.0M</hostvalue>
+   <hostvalue name='swap_used'>331.2M</hostvalue>
+ </host>
+</qhost>

@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<job_info  xmlns:xsd="http://gridengine.sunsource.net/source/browse/*checkout*/gridengine/source/dist/util/resources/schemas/qstat/qstat.xsd?revision=1.11">
+  <queue_info>
+    <Queue-List>
+      <name>continuous@tools-exec-01.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>5</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">27.332G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-02.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>15</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">16.724G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-03.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>8</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">22.917G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-04.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>6</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">26.355G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-05.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>9</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">15.116G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-06.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>7</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">24.782G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-07.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>4</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">25.371G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>continuous@tools-exec-08.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>10</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">21.959G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</name>
+      <qtype>BC</qtype>
+      <slots_used>14</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="qf">infinity</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-01.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>0</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">27.332G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-02.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>1</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">16.724G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-03.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>2</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">22.917G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-04.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>1</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">26.355G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-05.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>1</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">15.116G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-06.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>3</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">24.782G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-07.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>2</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">25.371G</resource>
+    </Queue-List>
+    <Queue-List>
+      <name>task@tools-exec-08.pmtpa.wmflabs</name>
+      <qtype>BI</qtype>
+      <slots_used>7</slots_used>
+      <slots_resv>0</slots_resv>
+      <slots_total>1000</slots_total>
+      <arch>lx26-amd64</arch>
+      <resource name="h_vmem" type="hc">21.959G</resource>
+    </Queue-List>
+  </queue_info>
+  <job_info>
+  </job_info>
+</job_info>
