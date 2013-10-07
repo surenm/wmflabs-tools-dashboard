@@ -1,0 +1,1393 @@
+<?xml version='1.0'?>
+<job_info  xmlns:xsd="http://gridengine.sunsource.net/source/browse/*checkout*/gridengine/source/dist/util/resources/schemas/qstat/qstat.xsd?revision=1.11">
+  <queue_info>
+    <job_list state="running">
+      <JB_job_number>333372</JB_job_number>
+      <JAT_prio>0.75000</JAT_prio>
+      <JB_name>run</JB_name>
+      <JB_owner>local-bracketbot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>run</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>399058</JB_job_number>
+      <JAT_prio>0.72590</JAT_prio>
+      <JB_name>epm</JB_name>
+      <JB_owner>local-legobot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T01:59:47</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>epm</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>425444</JB_job_number>
+      <JAT_prio>0.71691</JAT_prio>
+      <JB_name>downloader</JB_name>
+      <JB_owner>local-prism</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>downloader</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>553081</JB_job_number>
+      <JAT_prio>0.67554</JAT_prio>
+      <JB_name>start</JB_name>
+      <JB_owner>local-usrd-tools</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T21:42:48</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>start</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>554867</JB_job_number>
+      <JAT_prio>0.67495</JAT_prio>
+      <JB_name>python2</JB_name>
+      <JB_owner>tcn7jm</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-09-11T21:24:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>python2</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>561682</JB_job_number>
+      <JAT_prio>0.67271</JAT_prio>
+      <JB_name>xlinkbot</JB_name>
+      <JB_owner>beetstra</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:00:02</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>xlinkbot</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>573792</JB_job_number>
+      <JAT_prio>0.66864</JAT_prio>
+      <JB_name>unblockbot</JB_name>
+      <JB_owner>beetstra</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>unblockbot</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>573943</JB_job_number>
+      <JAT_prio>0.66859</JAT_prio>
+      <JB_name>chemobot</JB_name>
+      <JB_owner>beetstra</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T01:59:47</JAT_start_time>
+      <queue_name>continuous@tools-exec-01.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>chemobot</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>589531</JB_job_number>
+      <JAT_prio>0.66369</JAT_prio>
+      <JB_name>linkwatcher</JB_name>
+      <JB_owner>beetstra</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T01:59:47</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>linkwatcher</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">8388608k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>634514</JB_job_number>
+      <JAT_prio>0.62785</JAT_prio>
+      <JB_name>double</JB_name>
+      <JB_owner>ladsgroup</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-30T23:50:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>double</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>671329</JB_job_number>
+      <JAT_prio>0.59553</JAT_prio>
+      <JB_name>start</JB_name>
+      <JB_owner>local-hat-collector</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:00:02</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>start</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>671485</JB_job_number>
+      <JAT_prio>0.59538</JAT_prio>
+      <JB_name>starts3</JB_name>
+      <JB_owner>local-hat-collector</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-10-02T09:58:35</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>starts3</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>701409</JB_job_number>
+      <JAT_prio>0.56883</JAT_prio>
+      <JB_name>vm</JB_name>
+      <JB_owner>local-giftbot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T01:59:47</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>vm</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>701410</JB_job_number>
+      <JAT_prio>0.56883</JAT_prio>
+      <JB_name>mg</JB_name>
+      <JB_owner>local-giftbot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-30T23:50:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>mg</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>701414</JB_job_number>
+      <JAT_prio>0.56882</JAT_prio>
+      <JB_name>gva</JB_name>
+      <JB_owner>local-giftbot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-23T15:20:02</JAT_start_time>
+      <queue_name>continuous@tools-exec-01.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>gva</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>702652</JB_job_number>
+      <JAT_prio>0.56774</JAT_prio>
+      <JB_name>github-sync</JB_name>
+      <JB_owner>local-suchaserver</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>github-sync</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>718034</JB_job_number>
+      <JAT_prio>0.55421</JAT_prio>
+      <JB_name>ecmabot-wm</JB_name>
+      <JB_owner>local-ecmabot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>ecmabot-wm</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1740800k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>744318</JB_job_number>
+      <JAT_prio>0.53138</JAT_prio>
+      <JB_name>AnomieBOT-999</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:00:02</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-999</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>772729</JB_job_number>
+      <JAT_prio>0.50563</JAT_prio>
+      <JB_name>github-to-gerrit</JB_name>
+      <JB_owner>local-suchaserver</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>github-to-gerrit</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>774554</JB_job_number>
+      <JAT_prio>0.50400</JAT_prio>
+      <JB_name>g-to-redis-registrar</JB_name>
+      <JB_owner>local-gerrit-to-redis</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:00:02</JAT_start_time>
+      <queue_name>continuous@tools-exec-01.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>g-to-redis-registrar</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>804460</JB_job_number>
+      <JAT_prio>0.47689</JAT_prio>
+      <JB_name>start</JB_name>
+      <JB_owner>tcn7jm</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-31T03:30:09</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>start</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>818857</JB_job_number>
+      <JAT_prio>0.46409</JAT_prio>
+      <JB_name>AnomieBOT-4</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-01.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-4</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>825972</JB_job_number>
+      <JAT_prio>0.45823</JAT_prio>
+      <JB_name>wikistream</JB_name>
+      <JB_owner>local-wikistream</JB_owner>
+      <state>Rr</state>
+      <JAT_start_time>2013-08-28T02:39:17</JAT_start_time>
+      <queue_name>continuous@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>wikistream</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>830767</JB_job_number>
+      <JAT_prio>0.45409</JAT_prio>
+      <JB_name>endo</JB_name>
+      <JB_owner>local-alchimista</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-08-21T18:54:00</JAT_start_time>
+      <queue_name>continuous@tools-exec-01.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>endo</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>886235</JB_job_number>
+      <JAT_prio>0.41829</JAT_prio>
+      <JB_name>AnomieBOT-updater</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-08-30T00:26:48</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-updater</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">256m</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>890492</JB_job_number>
+      <JAT_prio>0.41585</JAT_prio>
+      <JB_name>BCBot4</JB_name>
+      <JB_owner>local-betacommand-dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-08-30T13:54:33</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>BCBot4</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">614400k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>935093</JB_job_number>
+      <JAT_prio>0.39117</JAT_prio>
+      <JB_name>loltrs</JB_name>
+      <JB_owner>local-loltrs</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-05T06:04:57</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>loltrs</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">819200k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>945176</JB_job_number>
+      <JAT_prio>0.38578</JAT_prio>
+      <JB_name>start_bot2</JB_name>
+      <JB_owner>local-afcbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-06T12:20:09</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>start_bot2</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">819200k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>954088</JB_job_number>
+      <JAT_prio>0.38082</JAT_prio>
+      <JB_name>bz2xml2sql</JB_name>
+      <JB_owner>local-yifeibot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-07T15:40:54</JAT_start_time>
+      <queue_name>task@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>bz2xml2sql</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>955116</JB_job_number>
+      <JAT_prio>0.38025</JAT_prio>
+      <JB_name>AnomieBOT-5</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-07T18:50:09</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-5</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>969188</JB_job_number>
+      <JAT_prio>0.37275</JAT_prio>
+      <JB_name>viewcache_demon</JB_name>
+      <JB_owner>local-glamtools</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-09T12:13:54</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>viewcache_demon</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>983119</JB_job_number>
+      <JAT_prio>0.36441</JAT_prio>
+      <JB_name>core</JB_name>
+      <JB_owner>local-wm-bot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T09:45:54</JAT_start_time>
+      <queue_name>task@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>core</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1843200k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>985286</JB_job_number>
+      <JAT_prio>0.36333</JAT_prio>
+      <JB_name>AnomieBOT-3</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T16:12:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-3</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>985287</JB_job_number>
+      <JAT_prio>0.36333</JAT_prio>
+      <JB_name>AnomieBOT-6</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T16:12:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-6</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">367001600</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>985288</JB_job_number>
+      <JAT_prio>0.36333</JAT_prio>
+      <JB_name>AnomieBOT-7</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T16:12:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-7</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>985289</JB_job_number>
+      <JAT_prio>0.36333</JAT_prio>
+      <JB_name>AnomieBOT-200</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T16:12:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-200</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>985290</JB_job_number>
+      <JAT_prio>0.36333</JAT_prio>
+      <JB_name>AnomieBOT-210</JB_name>
+      <JB_owner>local-anomiebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-11T16:12:24</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AnomieBOT-210</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">268435456</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>991284</JB_job_number>
+      <JAT_prio>0.36021</JAT_prio>
+      <JB_name>USRDbot</JB_name>
+      <JB_owner>local-usrd-tools</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-12T09:25:39</JAT_start_time>
+      <queue_name>continuous@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>USRDbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1025232</JB_job_number>
+      <JAT_prio>0.34271</JAT_prio>
+      <JB_name>iwCat</JB_name>
+      <JB_owner>local-grapedog</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-16T10:00:09</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>iwCat</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1048415</JB_job_number>
+      <JAT_prio>0.33103</JAT_prio>
+      <JB_name>HersfoldIRCBot</JB_name>
+      <JB_owner>local-hersfold-irc</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-19T02:26:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>HersfoldIRCBot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2621440k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1070354</JB_job_number>
+      <JAT_prio>0.31984</JAT_prio>
+      <JB_name>deletion_test</JB_name>
+      <JB_owner>local-itwp-deletions</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-21T16:13:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>deletion_test</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2.5G</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1072046</JB_job_number>
+      <JAT_prio>0.31897</JAT_prio>
+      <JB_name>script_wui</JB_name>
+      <JB_owner>local-drtrigonbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-21T21:01:05</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>script_wui</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1082220</JB_job_number>
+      <JAT_prio>0.31390</JAT_prio>
+      <JB_name>random-featured-update</JB_name>
+      <JB_owner>local-random-featured</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T01:00:05</JAT_start_time>
+      <queue_name>task@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>random-featured-update</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">500M</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1082229</JB_job_number>
+      <JAT_prio>0.31390</JAT_prio>
+      <JB_name>redirect</JB_name>
+      <JB_owner>local-hawk-eye-bot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T01:00:05</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>redirect</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1082372</JB_job_number>
+      <JAT_prio>0.31382</JAT_prio>
+      <JB_name>start</JB_name>
+      <JB_owner>local-tc-rc</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T01:24:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>start</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1083595</JB_job_number>
+      <JAT_prio>0.31350</JAT_prio>
+      <JB_name>analytics-logbot</JB_name>
+      <JB_owner>local-morebots</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T03:12:05</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>analytics-logbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1083599</JB_job_number>
+      <JAT_prio>0.31350</JAT_prio>
+      <JB_name>e3-logbot</JB_name>
+      <JB_owner>local-morebots</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T03:12:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>e3-logbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1084879</JB_job_number>
+      <JAT_prio>0.31284</JAT_prio>
+      <JB_name>gerrit-to-redis</JB_name>
+      <JB_owner>local-gerrit-to-redis</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T06:50:05</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>gerrit-to-redis</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1087715</JB_job_number>
+      <JAT_prio>0.31129</JAT_prio>
+      <JB_name>labs-logbot</JB_name>
+      <JB_owner>local-morebots</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T14:54:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>labs-logbot</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1089019</JB_job_number>
+      <JAT_prio>0.31070</JAT_prio>
+      <JB_name>production-logbot</JB_name>
+      <JB_owner>local-morebots</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-23T18:36:35</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>production-logbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1094326</JB_job_number>
+      <JAT_prio>0.30774</JAT_prio>
+      <JB_name>stalkboten</JB_name>
+      <JB_owner>local-betacommand-dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-24T10:59:05</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>stalkboten</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">614400k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1094327</JB_job_number>
+      <JAT_prio>0.30774</JAT_prio>
+      <JB_name>stalkbotalerts</JB_name>
+      <JB_owner>local-betacommand-dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-24T10:59:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>stalkbotalerts</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">614400k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1094328</JB_job_number>
+      <JAT_prio>0.30774</JAT_prio>
+      <JB_name>stalkbotBAG</JB_name>
+      <JB_owner>local-betacommand-dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-24T10:59:35</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>stalkbotBAG</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">614400k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1094367</JB_job_number>
+      <JAT_prio>0.30773</JAT_prio>
+      <JB_name>stalkbotuntil</JB_name>
+      <JB_owner>local-betacommand-dev</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-24T11:00:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>stalkbotuntil</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">614400k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1098913</JB_job_number>
+      <JAT_prio>0.30539</JAT_prio>
+      <JB_name>main</JB_name>
+      <JB_owner>local-legobot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-24T23:57:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>main</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">819200k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1125519</JB_job_number>
+      <JAT_prio>0.29236</JAT_prio>
+      <JB_name>pwbugs</JB_name>
+      <JB_owner>local-pywikibot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-27T23:50:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>pwbugs</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">716800k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1145676</JB_job_number>
+      <JAT_prio>0.28292</JAT_prio>
+      <JB_name>USRDbot</JB_name>
+      <JB_owner>local-hat-collector</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-09-30T03:54:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>USRDbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1152977</JB_job_number>
+      <JAT_prio>0.27922</JAT_prio>
+      <JB_name>earwigbot</JB_name>
+      <JB_owner>local-earwigbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-01T00:21:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>earwigbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1536000k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1176155</JB_job_number>
+      <JAT_prio>0.26887</JAT_prio>
+      <JB_name>github-updater</JB_name>
+      <JB_owner>local-hazard-bot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T09:29:05</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>github-updater</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177283</JB_job_number>
+      <JAT_prio>0.26816</JAT_prio>
+      <JB_name>vcat-toollabs-daemon</JB_name>
+      <JB_owner>local-vcat</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T12:52:50</JAT_start_time>
+      <queue_name>continuous@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>vcat-toollabs-daemon</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177617</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>status</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>status</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177618</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>taskchecker</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>taskchecker</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177619</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>PCbot</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>PCbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177621</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>rfx-report</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>rfx-report</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177622</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>rfx-tally</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>rfx-tally</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177623</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>meta-cont</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:52:20</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>meta-cont</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177624</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>enwiki-sandbox</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:53:35</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>enwiki-sandbox</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177625</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>datefix</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:54:05</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>datefix</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177626</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>admin-highlight</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:54:50</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>admin-highlight</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1177627</JB_job_number>
+      <JAT_prio>0.26807</JAT_prio>
+      <JB_name>spambot</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T13:55:35</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>spambot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">536870912k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1178879</JB_job_number>
+      <JAT_prio>0.26739</JAT_prio>
+      <JB_name>dbbot-wm</JB_name>
+      <JB_owner>local-wmfdbbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-03T17:36:20</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>dbbot-wm</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1189144</JB_job_number>
+      <JAT_prio>0.26201</JAT_prio>
+      <JB_name>geodata3</JB_name>
+      <JB_owner>local-audetools</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-04T22:50:06</JAT_start_time>
+      <queue_name>task@tools-exec-07.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>geodata3</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1189478</JB_job_number>
+      <JAT_prio>0.26183</JAT_prio>
+      <JB_name>geodata5</JB_name>
+      <JB_owner>local-audetools</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-04T23:48:06</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>geodata5</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1189482</JB_job_number>
+      <JAT_prio>0.26183</JAT_prio>
+      <JB_name>geodata6</JB_name>
+      <JB_owner>local-audetools</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-04T23:48:36</JAT_start_time>
+      <queue_name>task@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>geodata6</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1192939</JB_job_number>
+      <JAT_prio>0.26033</JAT_prio>
+      <JB_name>Welcome</JB_name>
+      <JB_owner>local-iluvatarbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-05T08:34:51</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>Welcome</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1193709</JB_job_number>
+      <JAT_prio>0.25991</JAT_prio>
+      <JB_name>VMBot</JB_name>
+      <JB_owner>local-spbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-05T10:54:21</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>VMBot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1195998</JB_job_number>
+      <JAT_prio>0.25865</JAT_prio>
+      <JB_name>lolrrit-wm</JB_name>
+      <JB_owner>local-lolrrit-wm</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-05T17:49:51</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>lolrrit-wm</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1200982</JB_job_number>
+      <JAT_prio>0.25626</JAT_prio>
+      <JB_name>person</JB_name>
+      <JB_owner>local-dexbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-06T07:02:22</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>person</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1202966</JB_job_number>
+      <JAT_prio>0.25517</JAT_prio>
+      <JB_name>linky</JB_name>
+      <JB_owner>local-jimmy</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-06T13:02:07</JAT_start_time>
+      <queue_name>continuous@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>linky</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1202967</JB_job_number>
+      <JAT_prio>0.25517</JAT_prio>
+      <JB_name>catmon</JB_name>
+      <JB_owner>local-jimmy</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-06T13:02:07</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>catmon</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1206644</JB_job_number>
+      <JAT_prio>0.25319</JAT_prio>
+      <JB_name>bookreports</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T00:00:22</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>bookreports</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1206656</JB_job_number>
+      <JAT_prio>0.25319</JAT_prio>
+      <JB_name>stathat</JB_name>
+      <JB_owner>local-addshore</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T00:00:22</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>stathat</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1209180</JB_job_number>
+      <JAT_prio>0.25209</JAT_prio>
+      <JB_name>office</JB_name>
+      <JB_owner>local-dexbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T06:04:52</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>office</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1209885</JB_job_number>
+      <JAT_prio>0.25170</JAT_prio>
+      <JB_name>archive_ns3</JB_name>
+      <JB_owner>local-legobot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T08:12:22</JAT_start_time>
+      <queue_name>task@tools-exec-08.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>archive_ns3</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1209936</JB_job_number>
+      <JAT_prio>0.25168</JAT_prio>
+      <JB_name>snitch</JB_name>
+      <JB_owner>local-legobot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T08:20:07</JAT_start_time>
+      <queue_name>continuous@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>snitch</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">819200k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1210758</JB_job_number>
+      <JAT_prio>0.25119</JAT_prio>
+      <JB_name>RFC_bot</JB_name>
+      <JB_owner>local-legobot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T11:00:22</JAT_start_time>
+      <queue_name>task@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>RFC_bot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">409600k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1211436</JB_job_number>
+      <JAT_prio>0.25083</JAT_prio>
+      <JB_name>vedirtydiffbot</JB_name>
+      <JB_owner>local-visualeditor</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T13:00:22</JAT_start_time>
+      <queue_name>task@tools-exec-05.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>vedirtydiffbot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1945600k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1211671</JB_job_number>
+      <JAT_prio>0.25069</JAT_prio>
+      <JB_name>AfDBot</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T13:47:07</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>AfDBot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1211672</JB_job_number>
+      <JAT_prio>0.25069</JAT_prio>
+      <JB_name>RfUBot</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T13:47:07</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>RfUBot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1211675</JB_job_number>
+      <JAT_prio>0.25069</JAT_prio>
+      <JB_name>RfPPBot</JB_name>
+      <JB_owner>local-cyberbot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T13:47:07</JAT_start_time>
+      <queue_name>cyberbot@tools-exec-cyberbot.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>RfPPBot</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>cyberbot</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212056</JB_job_number>
+      <JAT_prio>0.25047</JAT_prio>
+      <JB_name>repcd</JB_name>
+      <JB_owner>local-render</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T15:00:07</JAT_start_time>
+      <queue_name>task@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>repcd</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">1048576k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212128</JB_job_number>
+      <JAT_prio>0.25044</JAT_prio>
+      <JB_name>terminator_update</JB_name>
+      <JB_owner>local-wikidata-terminator</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T15:10:07</JAT_start_time>
+      <queue_name>task@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>terminator_update</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">4194304k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212352</JB_job_number>
+      <JAT_prio>0.25032</JAT_prio>
+      <JB_name>php_dispatchRC_zhwiki</JB_name>
+      <JB_owner>local-liangent-php</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T15:50:22</JAT_start_time>
+      <queue_name>continuous@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>php_dispatchRC_zhwiki</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">5242880k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212704</JB_job_number>
+      <JAT_prio>0.25002</JAT_prio>
+      <JB_name>terminator_update</JB_name>
+      <JB_owner>local-wikidata-terminator</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:00:07</JAT_start_time>
+      <queue_name>task@tools-exec-06.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>terminator_update</full_job_name>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <def_hard_request name="jobs">1</def_hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212723</JB_job_number>
+      <JAT_prio>0.25011</JAT_prio>
+      <JB_name>redirect</JB_name>
+      <JB_owner>local-hawk-eye-bot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:00:07</JAT_start_time>
+      <queue_name>task@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>redirect</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212898</JB_job_number>
+      <JAT_prio>0.25002</JAT_prio>
+      <JB_name>rotten_tomatoes</JB_name>
+      <JB_owner>local-theoslittlebot</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:30:07</JAT_start_time>
+      <queue_name>task@tools-exec-02.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>rotten_tomatoes</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">524288k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212908</JB_job_number>
+      <JAT_prio>0.25001</JAT_prio>
+      <JB_name>php_cleanupILH_DOM_zhwiki</JB_name>
+      <JB_owner>local-liangent-php</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:33:07</JAT_start_time>
+      <queue_name>task@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>php_cleanupILH_DOM_zhwiki</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">2097152k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212911</JB_job_number>
+      <JAT_prio>0.25001</JAT_prio>
+      <JB_name>maj_articles_recents</JB_name>
+      <JB_owner>local-totoazero</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:33:07</JAT_start_time>
+      <queue_name>continuous@tools-exec-04.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>maj_articles_recents</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>continuous</hard_req_queue>
+    </job_list>
+    <job_list state="running">
+      <JB_job_number>1212916</JB_job_number>
+      <JAT_prio>0.25000</JAT_prio>
+      <JB_name>bingle</JB_name>
+      <JB_owner>local-bingle</JB_owner>
+      <state>r</state>
+      <JAT_start_time>2013-10-07T17:35:07</JAT_start_time>
+      <queue_name>task@tools-exec-03.pmtpa.wmflabs</queue_name>
+      <slots>1</slots>
+      <full_job_name>bingle</full_job_name>
+      <hard_request name="jobs" resource_contribution="500.000000">1</hard_request>
+      <hard_request name="h_vmem" resource_contribution="0.000000">262144k</hard_request>
+      <hard_req_queue>task</hard_req_queue>
+    </job_list>
+  </queue_info>
+  <job_info>
+  </job_info>
+</job_info>
